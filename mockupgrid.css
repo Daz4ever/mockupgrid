@@ -1,0 +1,149 @@
+
+.blackborder {
+  background-color: #3B1C32;
+}
+
+.ourcompany {
+  background-color: #3B1C32;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
+
+.ourcompany p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: Arial;
+  font-weight: 500;
+}
+.rightnavside ul {
+  text-align: right;
+}
+.rightnavside li {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  list-style-type: none;
+  margin: 18px 0;
+}
+
+li:nth-of-type(1) {
+  padding-right: 15px;
+}
+li:nth-of-type(3) {
+  padding-left: 15px;
+}
+
+.rightnavside ul {
+  padding: 0;
+}
+.awesome {
+  background-color: #FFFD82;
+  padding: 200px 0;
+  Font-size: 70px;
+  text-align: center;
+}
+.bullets {
+
+    margin: 0 0 30px 0;
+}
+
+.whywe {
+  text-align: center;
+  list-style-type: none;
+}
+.whywe li {
+  line-height: 20px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+
+}
+.purple ul {
+  margin-bottom: 100px;
+}
+.purple {
+  background-color:#2D3047;
+}
+
+
+.purplehead {
+  background-color: #2D3047;
+  border-top: 5px solid black;
+  margin-bottom: 0;
+}
+
+.purplehead p {
+  text-align: center;
+  font-size: 50px;
+  font-family: arial;
+  color: white;
+  margin-top: 100px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 100px 0 50px 0;
+
+}
+
+ .olive {
+  background-color: #632B30;
+  text-align: center;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+
+}
+
+.olive p {
+  color: white;
+  font-family: arial;
+  line-height: 35px;
+  margin: 20px 50px 50px 50px;
+
+}
+.pink {
+  background-color: #FFFD82 ;
+}
+
+@media screen and (max-width: 787px) {
+  .ourcompany {
+    text-align: center;
+    width: 100%;
+  }
+  div.col-sm-6.col-md-6.col-lg-6.rightnavside {
+    width: 100%;
+  }
+  .rightnavside ul {
+    width: 100%;
+    text-align: center;
+  }
+  .rightnavside li {
+    float: none;
+    display: inline-block;
+    font-size: 1.25em;
+  }
+
+  .awesome {
+    Font-size: 45px;
+}
+.purplehead p {
+  font-size: 25px;
+}
+.whywe li {
+
+  font-size: 15px;
+
+}
+.container.pink {
+  background-color: #FFFD82;
+}
+
+div.awesome {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+}
